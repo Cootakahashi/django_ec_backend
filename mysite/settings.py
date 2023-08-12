@@ -19,7 +19,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 # ALLOWED_HOSTS = []
 
-ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS', '.localhost,.vercel.app').split(',')
+ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS', '.localhost,.vercel.app,.herokuapp.com').split(',')
 
 # Application definition
 

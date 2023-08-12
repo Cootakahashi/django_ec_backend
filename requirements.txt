@@ -6,9 +6,11 @@ Django==3.2.9
 django-cors-headers==4.2.0
 djangorestframework==3.12.4
 djangorestframework-simplejwt==4.5.0
+gunicorn==21.2.0
 idna==3.4
 install==1.3.5
 load-dotenv==0.1.0
+packaging==23.1
 Pillow==10.0.0
 PyJWT==1.7.1
 python-dateutil==2.8.2

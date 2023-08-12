@@ -157,9 +157,14 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 12, # 1ページあたりのアイテム数
 }
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    # "https://nextjs-ec-front.vercel.app/",
+    'https://nextjs-ec-front-989l8gqrl-cootakahashi.vercel.app',
+    'https://nextjs-ec-front.vercel.app',
 ]
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "https://nextjs-ec-front-989l8gqrl-cootakahashi.vercel.app/",
+#     "https://nextjs-ec-front.vercel.app/",
+# ]
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(hours=1),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=3),
